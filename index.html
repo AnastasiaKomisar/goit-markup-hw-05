@@ -368,10 +368,11 @@
                 </ul>
             </div>
             <div class="subscribes">
-                <form>
-                    <label class="form-subscribe-label" for="subscribe-email">Subscribe</label>
-                    <input class="form-subscribe-input" type="text" id="subscribe-email" placeholder="E-mail" required>
-                    <button class="subscribe-btn" type="submit">Subscribe <span><svg class="subscribe-icon" width="24" height="24">
+                <p class="subscribe-text">Subscribe</p>
+                <form class="subscribes-form">
+                    <label class="form-subscribe-label">
+                    <input class="form-subscribe-input" type="email" placeholder="E-mail" required></label>
+                    <button class="subscribe-btn" type="submit">Subscribe<span><svg class="subscribe-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-send"></use>
                     </svg></span></button>
                 </form>
@@ -382,8 +383,8 @@
     <!--#endregion footer -->
 
     <!--#region form-->
-    <!-- <div class="backdrop"> -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
+    <!-- <div class="backdrop is-open"> -->
         <div class="modal">
             <button type="button" class="modal-close">
                 <svg class="icon-close" width="8" height="8">
